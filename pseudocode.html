@@ -3,21 +3,31 @@
         a. wins (start at zero)
         b. losses (start at zero)
         c. guesses:
-            *left (interger - give a number of tries) 
-            *made (string - starts at empty)
+            *guesses left (interger - give a number of tries) 
+            *guesses made (string - starts at empty) .... (changed to an array)
 4.  start a function when player presses a key
 5.  determine the key that player pressed
 6.  computer chooses a random letter
 7.  if statements
-        a.if (player letter = computer letter) {player wins --> add a winner point}
-        b.else (guess again) {one less guess}
-        c.if (no more guesses) {player looses --> add a loser point}
+        a.if (player letter = computer letter) {
+                player wins --> add a winner point
+                restart game
+        }
+
+        b.else (guess again) {
+                one less guess
+        }
+
+        c.if (no more guesses) {
+                player looses --> add a loser point
+        }
+
 9.  Document wins by referrence of their id
 10. Document losses by referrence of their id
 11. Document guesses left by referrence of their id
 12. Document guesses made by referrence of their id 
 
 NEEDS WORK:
-1.  Guesses Left doesn't stop at 0 it continues to -1,-2...and so on
-2.  Guesses Made doesn't keep track of the numbers player selected
-3.  to play again... don't use confirm command
+1.  Guesses Left doesn't stop at 0 it continues to -1,-2...and so on (fixed ...yay...)
+2.  Guesses Made doesn't keep track of the numbers player selected (...next...)
+3.  to play again... don't use confirm command (..work on this...)
