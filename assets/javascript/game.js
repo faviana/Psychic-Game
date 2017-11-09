@@ -51,12 +51,13 @@ document.onkeyup = function(event) {
 
     //show score
     var html =
-    "<p>Wins: " + wins + "</p>" +
-    "<p>Losses: " + losses + "</p>" +
-    "<p>Guesses Left: " + guessesLeft + "</p>"+
-    "<p>Guesses Made: " + guessesMade + "</p>";
+    "<p class ='data'>Wins: " + wins + "</p>" +
+    "<p class ='data'>Losses: " + losses + "</p>" +
+    "<p class ='data'>Guesses Left: " + guessesLeft + "</p>"+
+    "<p class ='data'>Guesses Made: " + guessesMade + "</p>";
 
     //get an element by id on your document and manipulate DOM.
     document.getElementById("game").innerHTML = html;
-  
+      
 }
+

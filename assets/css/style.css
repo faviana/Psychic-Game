@@ -1,0 +1,34 @@
+body{
+    
+    background-color: black; 
+}
+
+h1{
+    font-size: 500%;
+    text-align: center;
+    color: hotpink;
+    opacity: 0.5;
+    
+}
+
+.instructions{
+    font-size: 400%;
+    text-align: center;
+    color: lightgray;
+    opacity: 0.6
+}
+
+.start{
+    font-size: 300%;
+    text-align: center;
+    color: rgb(221, 179, 221);
+    opacity: 0.7;
+
+}
+
+p.data{
+    font-size: 200%;
+    text-align: center;
+    color:lavender;
+    opacity: 0,8;
+}
