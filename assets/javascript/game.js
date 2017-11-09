@@ -27,6 +27,8 @@ document.onkeyup = function(event) {
         confirm("Play again?");
         //guessesLeft restarts to 15 guesses
         guessesLeft = 15;
+        //guessesMade array restarts empty
+        guessesMade =[];
     }
     else{
         //else, guessesLeft count reduces 1 value; game continues
@@ -42,6 +44,8 @@ document.onkeyup = function(event) {
         confirm("Play again?");
         //guessesLeft restarts to 15 guesses
         guessesLeft = 15;
+        //guessesLeft restarts empty
+        guessesMade =[];
         
     }
 
@@ -50,8 +54,9 @@ document.onkeyup = function(event) {
     "<p>Wins: " + wins + "</p>" +
     "<p>Losses: " + losses + "</p>" +
     "<p>Guesses Left: " + guessesLeft + "</p>"+
-    "<p>Guesses Made: " + computer + "</p>";
+    "<p>Guesses Made: " + guessesMade + "</p>";
 
+    //get an element by id on your document and manipulate DOM.
     document.getElementById("game").innerHTML = html;
   
 }
